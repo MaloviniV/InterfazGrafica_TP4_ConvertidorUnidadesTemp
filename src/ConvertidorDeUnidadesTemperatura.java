@@ -115,7 +115,7 @@ public class ConvertidorDeUnidadesTemperatura extends javax.swing.JFrame {
 
     private void btnConvertirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConvertirActionPerformed
        try {
-            JOptionPane.showMessageDialog(this, " La conversion de "+jtCelsius.getText()+ " Cº: a Fº es: "+Float.parseFloat(jtCelsius.getText()) * 9/5 + 32);            
+            JOptionPane.showMessageDialog(this, " La conversion de "+jtCelsius.getText()+ " Cº: a Fº es: \n"+((Float.parseFloat(jtCelsius.getText()) * 1.8)+32));            
         } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(this, "Datos incorrectos");
         }
