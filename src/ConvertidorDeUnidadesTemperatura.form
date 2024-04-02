@@ -144,7 +144,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Consolas" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Celcius"/>
+                <Property name="text" type="java.lang.String" value="Celsius"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="btnConvertir">
