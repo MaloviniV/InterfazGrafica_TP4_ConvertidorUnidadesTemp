@@ -34,7 +34,7 @@ public class ConvertidorDeUnidadesTemperatura extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel2.setFont(new java.awt.Font("Consolas", 1, 14)); // NOI18N
-        jLabel2.setText("Celcius");
+        jLabel2.setText("Celsius");
 
         btnConvertir.setFont(new java.awt.Font("Consolas", 1, 12)); // NOI18N
         btnConvertir.setText("CONVERTIR");
