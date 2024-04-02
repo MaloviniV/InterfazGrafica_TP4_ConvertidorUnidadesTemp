@@ -1,13 +1,11 @@
 
 import javax.swing.JOptionPane;
 
-
 public class ConvertidorDeUnidadesTemperatura extends javax.swing.JFrame {
 
     public ConvertidorDeUnidadesTemperatura() {
         initComponents();
     }
-
     
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -143,7 +141,7 @@ public class ConvertidorDeUnidadesTemperatura extends javax.swing.JFrame {
 
     private void btnConvertirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConvertirActionPerformed
        try {
-            JOptionPane.showMessageDialog(this, " La conversion de "+jtCelsius.getText()+ " Cº: a Fº es: \n"+((Float.parseFloat(jtCelsius.getText()) * 1.8)+32));            
+            JOptionPane.showMessageDialog(this, " La conversion de "+jtCelsius.getText()+ " Cº a Fº es: \n"+((Float.parseFloat(jtCelsius.getText()) * 1.8)+32));            
         } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(this, "Datos incorrectos");
         }
@@ -156,9 +154,6 @@ public class ConvertidorDeUnidadesTemperatura extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jtCelsiusKeyTyped
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
