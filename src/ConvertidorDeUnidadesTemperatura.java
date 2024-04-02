@@ -57,6 +57,12 @@ public class ConvertidorDeUnidadesTemperatura extends javax.swing.JFrame {
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/convertir.png"))); // NOI18N
 
+        jtCelsius.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jtCelsiusKeyTyped(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -142,6 +148,13 @@ public class ConvertidorDeUnidadesTemperatura extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Datos incorrectos");
         }
     }//GEN-LAST:event_btnConvertirActionPerformed
+
+    private void jtCelsiusKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jtCelsiusKeyTyped
+        // TODO add your handling code here:
+        if(!Character.isDigit(evt.getKeyChar()) && !(evt.getKeyChar() == '.')){
+            evt.consume();
+        }
+    }//GEN-LAST:event_jtCelsiusKeyTyped
 
     /**
      * @param args the command line arguments
